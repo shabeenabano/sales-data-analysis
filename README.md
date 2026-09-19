@@ -1,180 +1,150 @@
-📊 Sales Analysis
+# Sales Data Analysis
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project focuses on analyzing sales transaction data to understand sales performance, customer behavior, product performance, revenue, and other important business metrics.
+This project analyzes supermarket sales data to understand sales performance, product performance, customer behavior, payment methods, and profitability.
 
-The analysis was performed using Python, Pandas, Matplotlib, and Seaborn to clean the dataset, explore patterns, and generate meaningful business insights.
+The analysis uses Python, Pandas, Matplotlib, and Seaborn to perform data cleaning, exploratory data analysis, visualization, correlation analysis, and business insight generation.
 
----
+## 🎯 Objectives
 
-🎯 Objectives
+- Analyze overall sales performance
+- Identify high-performing product lines
+- Compare revenue and quantity sold across product categories
+- Analyze branch and city performance
+- Understand customer behavior by gender
+- Analyze revenue by payment method
+- Study the relationship between sales and gross income
+- Identify correlations between numerical variables
+- Detect potential outliers
+- Generate actionable business insights
 
-- Analyze overall sales performance.
-- Identify the best-performing product categories.
-- Analyze sales based on branches and cities.
-- Understand customer purchasing behavior.
-- Analyze payment methods.
-- Compare sales across different customer segments.
-- Study gross income and transaction patterns.
-- Create meaningful visualizations.
-- Generate actionable business insights.
+## 📂 Dataset
 
----
+The project uses a supermarket sales dataset containing transaction-level information such as:
 
-📂 Dataset
+- Branch
+- City
+- Customer type
+- Gender
+- Product line
+- Unit price
+- Quantity
+- Tax
+- Total
+- Payment method
+- Rating
+- Gross income
 
-The dataset contains sales transaction information with columns such as:
-
-- "Invoice ID"
-- "Branch"
-- "City"
-- "Customer type"
-- "Gender"
-- "Product line"
-- "Unit price"
-- "Quantity"
-- "Tax 5%"
-- "Total"
-- "Date"
-- "Time"
-- "Payment"
-- "COGS"
-- "Gross margin percentage"
-- "Gross income"
-- "Rating"
-
----
-
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
-- NumPy
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
 
----
+## 🔄 Project Workflow
 
-🔍 Project Workflow
+1. Import required libraries
+2. Load the dataset
+3. Understand the dataset structure
+4. Check data types and statistical summary
+5. Check missing values and duplicate records
+6. Analyze categorical variables
+7. Remove duplicate records
+8. Perform exploratory data analysis
+9. Analyze sales performance
+10. Analyze product performance
+11. Analyze branch and city performance
+12. Analyze customer behavior
+13. Analyze payment methods
+14. Perform relationship and correlation analysis
+15. Perform outlier analysis
+16. Generate business insights
 
-1. Data Understanding
+## 🧹 Data Cleaning
 
-The dataset was explored to understand:
+The dataset was checked for:
 
-- Dataset shape
-- Column names
-- Data types
 - Missing values
 - Duplicate records
-- Statistical summary
+- Data types
+- Unique values
+- Categorical variables
 
-2. Data Cleaning
+Duplicate records were removed before performing the main analysis.
 
-The dataset was prepared for analysis by:
+## 📊 Sales Analysis
 
-- Checking missing values
-- Checking duplicate records
-- Handling data types
-- Preparing date and time information
-- Verifying data consistency
+The project calculates:
 
-3. Exploratory Data Analysis
+- Total revenue
+- Average transaction value
+- Total quantity sold
 
-EDA was performed to analyze:
+These metrics provide an overview of the overall sales performance.
 
-- Sales by branch
-- Sales by city
-- Product line performance
-- Customer type
-- Gender distribution
-- Payment methods
-- Quantity sold
-- Gross income
-- Customer ratings
+## 🛍️ Product Analysis
 
-4. Data Visualization
+Product performance is analyzed using:
 
-Different visualizations were created to understand sales patterns and business performance.
+- Revenue by product line
+- Quantity sold by product line
+- Gross income by product line
+- Average customer rating by product line
 
-The project includes:
+## 🏢 Branch & City Analysis
 
-- Bar Charts
-- Count Plots
-- Pie Charts
-- Histograms
-- Box Plots
-- Distribution Plots
+Revenue is compared across:
 
----
+- Different branches
+- Different cities
 
-📊 Key Analysis
+This helps identify differences in sales performance across locations.
 
-The project analyzes important business questions such as:
+## 👥 Customer Analysis
 
-- Which product line performs the best?
-- Which branch generates higher sales?
-- Which city has better sales performance?
-- Which payment method is most commonly used?
-- How do different customer types contribute to sales?
-- How does sales performance vary by gender?
-- Which product categories generate higher gross income?
-- What are the overall customer rating patterns?
+Customer-related analysis includes:
 
----
+- Revenue by gender
+- Average rating by gender
 
-📈 Visualizations
+These analyses help understand customer purchasing and rating patterns.
 
-The project includes visualizations for:
+## 💳 Payment Analysis
 
-- Sales by Branch
-- Sales by City
-- Product Line Performance
-- Customer Type Distribution
-- Gender Distribution
-- Payment Method Analysis
-- Gross Income Analysis
-- Customer Ratings
-- Quantity Sold
+Revenue is analyzed across different payment methods to understand payment preferences and their contribution to total sales.
 
-These visualizations help identify important sales and customer behavior patterns.
+## 🔗 Relationship Analysis
 
----
+The project examines:
 
-💡 Key Learnings
+- Relationship between Total Sales and Gross Income
+- Distribution of Quantity
 
-Through this project, the following Data Analysis concepts were implemented:
+Scatter plots and histograms are used for visualization.
 
-- Data Loading
-- Data Cleaning
-- Data Preprocessing
-- Exploratory Data Analysis
-- Statistical Analysis
-- Data Visualization
-- Pandas Data Manipulation
-- Matplotlib
-- Seaborn
-- Business Insight Generation
+## 📈 Correlation Analysis
 
----
+A correlation matrix and heatmap are used to analyze relationships between numerical variables.
 
-🏁 Conclusion
+## 📦 Outlier Analysis
 
-The Sales Analysis project provides a detailed analysis of sales transactions to understand business performance and customer behavior.
+Boxplots are used to identify potential outliers in:
 
-Through data cleaning, exploratory analysis, and visualization, important patterns related to product lines, branches, cities, customer types, payment methods, sales, and gross income were explored.
+- Total Sales
+- Gross Income
 
-This project demonstrates the complete workflow of a Data Analysis project using Python, from data preparation and exploration to visualization and business insight generation.
+## 💡 Business Insights
 
----
+The analysis is used to identify:
 
-👩‍💻 Author
+- Highest revenue-generating product line
+- Product line with the highest quantity sold
+- Most profitable product line
+- Best-performing branch
+- Best-performing city
+- Customer rating patterns
+- Payment method contribution
 
-Shabeena Bano
-
-B.Tech CSE | Aspiring Data Scientist
-
----
-
-⭐ If you find this project useful, feel free to explore the repository and connect with me.
