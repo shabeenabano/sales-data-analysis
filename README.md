@@ -148,5 +148,32 @@ The analysis is used to identify:
 - Customer rating patterns
 - Payment method contribution
 
+## 📊 Project Visualizations
+
+### Revenue by Product Line
+![Revenue by Product Line](02_cell_48.png)
+
+### Gross Income by Product Line
+![Gross Income by Product Line](04_cell_56.png)
+
+### Revenue by Branch
+![Revenue by Branch](06_cell_65.png)
+
+### Revenue by City
+![Revenue by City](07_cell_70.png)
+
+### Revenue by Payment Method
+![Revenue by Payment Method](10_cell_84.png)
+
+### Total Sales vs Gross Income
+![Total Sales vs Gross Income](11_cell_87.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](13_cell_94.png)
+
+### Outlier Analysis
+![Outlier Analysis](14_cell_97.png)
+
 👩‍💻 Author
+
 Shabeena Bano
