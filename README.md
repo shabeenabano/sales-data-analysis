@@ -148,3 +148,5 @@ The analysis is used to identify:
 - Customer rating patterns
 - Payment method contribution
 
+👩‍💻 Author
+Shabeena Bano
