@@ -6,6 +6,10 @@ This project analyzes supermarket sales data to understand sales performance, pr
 
 The analysis uses Python, Pandas, Matplotlib, and Seaborn to perform data cleaning, exploratory data analysis, visualization, correlation analysis, and business insight generation.
 
+## 🎯 Business Objective
+
+The objective of this project is to analyze sales data to identify revenue trends, product performance, branch and city performance, customer behavior, and payment patterns. The analysis uses exploratory data analysis and visualization to generate meaningful business insights that can support data-driven decision-making.
+
 ## 🎯 Objectives
 
 - Analyze overall sales performance
@@ -38,11 +42,11 @@ The project uses a supermarket sales dataset containing transaction-level inform
 
 ## 🛠️ Technologies Used
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- **Programming:** Python
+- **Libraries:** Pandas, Matplotlib, Seaborn
+- **Data Analysis:** Exploratory Data Analysis (EDA)
+- **Visualization:** Matplotlib, Seaborn
+- **Environment:** Jupyter Notebook
 
 ## 🔄 Project Workflow
 
@@ -136,6 +140,14 @@ Boxplots are used to identify potential outliers in:
 - Total Sales
 - Gross Income
 
+  ## 🔍 Key Findings
+
+- Identified important **revenue trends** across products and business locations.
+- Analyzed **product-line performance** to understand sales contribution.
+- Compared **branch and city performance** to identify differences in sales.
+- Examined **customer behavior and payment methods** to understand purchasing patterns.
+- Used correlation and outlier analysis to identify relationships and unusual observations in the dataset.
+
 ## 💡 Business Insights
 
 The analysis is used to identify:
@@ -173,6 +185,9 @@ The analysis is used to identify:
 
 ### Outlier Analysis
 ![Outlier Analysis](14_cell_97.png)
+
+
+
 
 👩‍💻 Author
 
