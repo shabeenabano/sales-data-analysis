@@ -186,8 +186,21 @@ The analysis is used to identify:
 ### Outlier Analysis
 ![Outlier Analysis](14_cell_97.png)
 
+## 📁 Project Structure
 
-
+```text
+Sales-Data-Analysis/
+├── sales_analysis.ipynb
+├── README.md
+├── 02_cell_48.png
+├── 04_cell_56.png
+├── 06_cell_65.png
+├── 07_cell_70.png
+├── 10_cell_84.png
+├── 11_cell_87.png
+├── 13_cell_94.png
+└── 14_cell_97.png
+```
 
 👩‍💻 Author
 
